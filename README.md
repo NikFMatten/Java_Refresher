@@ -1,11 +1,11 @@
 # Java_Refresher
 
 <h4>Description</h4>
-<hl/>
+<hr/>
 <p>The purpose of this repo is to refresh my knowledge of Java. I am following an Introduction into Java course located on udemy.com</p>
 <br/>
 <h4>Topics covered</h4>
-<hl/>
+<hr/>
 <ul>
 <li>Variables</li>
 <li>For/While Loops</li>
