@@ -53,11 +53,23 @@ public class Refresher {
 		System.out.println("You have entered: " + value);
 	}
 
+	public static void doWhileLoop() {
+		Scanner input = new Scanner(System.in);
+		int value;
+		do {
+			System.out.println("Guess a number between 1 and 5: ");
+			value = input.nextInt();
+		}
+		while(value != 3);
+		System.out.println("Correct Guess of 3");
+	}
+	
 	public static void main(String[] args) {
 		variables();
 		forWhileLoops();
 		whileIfStatement();
 		userInput();
+		doWhileLoop();
 	}
 
 }
