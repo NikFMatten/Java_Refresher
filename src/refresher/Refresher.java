@@ -1,4 +1,5 @@
 package refresher;
+import java.util.Scanner;
 
 public class Refresher {
 	
@@ -30,10 +31,33 @@ public class Refresher {
 			j++;
 		}
 	}
+	
+	public static void whileIfStatement() {
+		int loop = 0;
+		System.out.println("Output for While If statement:");
+		
+		while(true) {
+			System.out.println("\tLoop iteration: " + loop);
+			if (loop == 5) {
+				System.out.println("\tLoop reached 5, breaking loop");
+				break;
+			}
+			loop++;
+		}
+	}
+	
+	public static void userInput() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter an integer: ");
+		int value = input.nextInt();
+		System.out.println("You have entered: " + value);
+	}
 
 	public static void main(String[] args) {
 		variables();
 		forWhileLoops();
+		whileIfStatement();
+		userInput();
 	}
 
 }
